@@ -53,7 +53,7 @@ function insertCustomBlockBefore() {
 
 // Run functions when the DOM content is loaded
 document.addEventListener('DOMContentLoaded', () => {
-  highlightMainDiv();
+  // highlightMainDiv();
   insertCustomBlockBefore();
 });
 
