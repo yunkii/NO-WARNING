@@ -15,21 +15,26 @@ function insertCustomBlockBefore() {
     const allDivs = document.querySelectorAll('div.x1lliihq');
     allDivs.forEach(div => {
       if (div.classList.length === 1 && div.classList.contains('x1lliihq')) {
-        if (!div.previousElementSibling || !div.previousElementSibling.classList.contains('customBlock')) {
-            const customDiv = document.createElement('div');
-            customDiv.className = 'customBlock';
-            const image = document.createElement('img');
-            const randomIndex = Math.floor(Math.random() * num) + 1;
-            // console.log(randomInsert > 2)
-              image.src = chrome.runtime.getURL(`assets/images/${randomIndex}.jpg`);
-              image.alt = 'Custom Image';
-              image.style.width = '100%';  // Adjust as needed
-              customDiv.appendChild(image);
-              div.parentNode.insertBefore(customDiv, div);
-
+        if (!div.nextElementSibling || !div.nextElementSibling.classList.contains('customBlock')) {
+          const customDiv = document.createElement('div');
+          customDiv.className = 'customBlock';
+          const image = document.createElement('img');
+          const titleBlock = document.createElement('div');
+          titleBlock.className = 'titleBlock';
+          const text = document.createElement('div');
+          text.className = 'textBlock';
+          text.innerHTML = 'WARNING: Social Media seriously harms your mental health';
+          const randomIndex = Math.floor(Math.random() * num) + 1;
+          image.src = chrome.runtime.getURL(`assets/images/img-simple/${randomIndex}.jpg`);
+          image.alt = 'Custom Image';
+          image.style.width = '100%';  // Adjust as needed
+          customDiv.appendChild(titleBlock);
+          titleBlock.appendChild(text);
+          customDiv.appendChild(image);
+          div.insertAdjacentElement('afterend', customDiv);
         }
       }
-    });
+    });    
   } else if(isIG) {
     console.log('isIG')
     const allArticles = document.querySelectorAll('article');
