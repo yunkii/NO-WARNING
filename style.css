@@ -1,0 +1,21 @@
+.custom-html-block {
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    text-align: center;
+  }
+  
+
+ .customBlock {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    max-width: 100%;
+  }
+
+  
+
+  .hidden {
+    display: none;
+  }

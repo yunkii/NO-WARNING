@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "NØ WARNING",
+  "version": "1.0",
+  "description": "Insert warning messages on Social Media ",
+  "permissions": [
+    "activeTab",
+    "webNavigation"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://www.facebook.com/*", "*://www.instagram.com/*"],
+      "js": ["content.js"],
+      "css": ["style.css"]
+    }
+  ],
+  "icons": {
+    "128": "assets/icons/icon_128.png"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["assets/images/1.jpg", "assets/images/2.jpg", "assets/images/3.jpg", "assets/images/4.jpg", "assets/images/5.jpg"],
+      "matches": ["*://www.facebook.com/*", "*://www.instagram.com/*"]
+    }
+  ]
+}
+
