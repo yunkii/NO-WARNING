@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // Observer to re-run functions when new content is loaded dynamically
 const observer = new MutationObserver(() => {
-  highlightMainDiv();
+  // highlightMainDiv();
   insertCustomBlockBefore();
 });
 
