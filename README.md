@@ -1,7 +1,7 @@
 # NØ WARNING (Google chrome extension) 
 Chrome extension to insert warning messages on Social Media.
 
-![NØSOCIAL](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExeW5jcGkydnhvcGhienBiaGVoZW50bGJmZmM0cGhsam40czFma3B3eSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/7PNvrz7ntaL1vI1SLd/giphy.gif")
+![NØSOCIAL](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExeW5jcGkydnhvcGhienBiaGVoZW50bGJmZmM0cGhsam40czFma3B3eSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/7PNvrz7ntaL1vI1SLd/giphy.gif)
 
 ## The concept 
 Social media addiction is a widespread phenomenon, and many studies have pointed out that it affects the health of many individuals. Therefore, we believe that this issue needs to be regulated, similar to how cigarette usage comes with warnings. This browser extension will automatically add warnings when you browse social media.
