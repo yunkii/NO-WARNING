@@ -1,14 +1,16 @@
 # NØ WARNING
 Chrome extension to insert warning messages on Social Media.
-Works on your PC
 
-## How to install the chrome extension ? 
+<img src="https://i.ibb.co/vDHbzHG/icon-orangebanner.png" alt="icon-orangebanner"/>
 
-1. Download and unzip the extension file : 
-https://github.com/yunkii/NO-WARNING/archive/refs/heads/main.zip
+## The concept 
+Social media addiction is a widespread phenomenon, and many studies have pointed out that it affects the health of many individuals. Therefore, we believe that this issue needs to be regulated, similar to how cigarette usage comes with warnings. This browser extension will automatically add warnings when you browse social media.
 
-2. Navigate to chrome://extensions
-3. Turn on the developer mode on the right
-4. Expand the Developer dropdown menu and click “Load Unpacked Extension”
-Navigate to the local folder containing the extension’s code and click OK
-5. Start browsing!
+
+## How to install ? 
+1. **Download** the extension file [HERE] (https://github.com/yunkii/NO-WARNING/archive/refs/heads/main.zip) and **unzip** it. 
+
+2. Navigate to **chrome://extensions**
+3. Turn **ON** the developer mode on the right size of the page
+4. Click **“Load Unpacked”**, and navigate **into** the unzipped folder and hit OK
+5. Go to **Facebook** or **Instagram** and see it in action! 
