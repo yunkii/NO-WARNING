@@ -25,11 +25,11 @@ function insertCustomBlockBefore() {
           text.className = 'textBlock';
           text.innerHTML = 'WARNING: Social Media seriously harms your mental health';
           const randomIndex = Math.floor(Math.random() * num) + 1;
-          image.src = chrome.runtime.getURL(`assets/images/img-simple/${randomIndex}.jpg`);
+          image.src = chrome.runtime.getURL(`assets/images/glitched_${randomIndex}.gif`);
           image.alt = 'Custom Image';
           image.style.width = '100%';  // Adjust as needed
-          customDiv.appendChild(titleBlock);
-          titleBlock.appendChild(text);
+          // customDiv.appendChild(titleBlock);
+          // titleBlock.appendChild(text);
           customDiv.appendChild(image);
           div.insertAdjacentElement('afterend', customDiv);
         }

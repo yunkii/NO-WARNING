@@ -19,7 +19,7 @@
   },
   "web_accessible_resources": [
     {
-      "resources": ["assets/images/1.jpg", "assets/images/2.jpg", "assets/images/3.jpg", "assets/images/4.jpg", "assets/images/5.jpg", "assets/images/img-simple/1.jpg", "assets/images/img-simple/2.jpg", "assets/images/img-simple/3.jpg", "assets/images/img-simple/4.jpg", "assets/images/img-simple/5.jpg"],
+      "resources": ["assets/images/1.jpg", "assets/images/2.jpg", "assets/images/3.jpg", "assets/images/4.jpg", "assets/images/5.jpg", "assets/images/glitched_1.gif", "assets/images/glitched_2.gif", "assets/images/glitched_3.gif", "assets/images/glitched_4.gif"],
       "matches": ["*://www.facebook.com/*", "*://www.instagram.com/*"]
     }
   ]
