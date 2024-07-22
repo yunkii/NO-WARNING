@@ -45,7 +45,7 @@ function insertCustomBlockBefore() {
           customDiv.className = 'customBlock';
           const image = document.createElement('img');
           const randomIndex = Math.floor(Math.random() * num) + 1;
-          image.src = chrome.runtime.getURL(`assets/images/${randomIndex}.jpg`);
+          image.src = chrome.runtime.getURL(`assets/images/glitched_${randomIndex}.gif`);
           image.alt = 'Custom Image';
           image.style.width = '100%';  // Adjust as needed
           customDiv.appendChild(image);
